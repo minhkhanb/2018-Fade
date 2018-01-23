@@ -1,0 +1,70 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  D:\Pine\Git\fade\src\_win\..\game\Lib\PineEngine\_win\Debug\x86\libcrypto-1_1.dll
+  D:\Pine\Git\fade\src\_win\..\game\Lib\PineEngine\_win\Debug\x86\libssl-1_1.dll
+  D:\Pine\Git\fade\src\_win\..\game\Lib\PineEngine\_win\Debug\x86\PineEngine.dll
+  3 File(s) copied
+  Animation.cpp
+  Generating Code...
+  Compiling...
+  CGame_Core.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  iPhoneGame.cpp
+  Thread.cpp
+  Os_Functions_NotSupported.cpp
+  Os_Functions.cpp
+  PineSprite.cpp
+  CSprite.cpp
+  PineImage.cpp
+  PineHighScore.cpp
+  PineADVERT.cpp
+  GLESLib1.cpp
+  CMath.cpp
+  ButtonAnimation.cpp
+  PineTexture.cpp
+  PineCanvas.cpp
+  DataInputStream.cpp
+  ArrayList.cpp
+  ColorBorn.cpp
+  Game_ExternFunctions.cpp
+  Setting_HUD_Effect_Touch_Button.cpp
+  Setting_HUD_Button.cpp
+  CGame_Setting.cpp
+  CGame_State_Logo.cpp
+  GamePlay_HUD_Tutorial.cpp
+  GamePlay_HUD_Share.cpp
+  GamePlay_HUD_Score.cpp
+  GamePlay_HUD_Popup.cpp
+  GamePlay_HUD_Loading.cpp
+  GamePlay_HUD_Ingame.cpp
+  GamePlay_HUD_End_Game.cpp
+  GamePlay_HUD_BackGround.cpp
+  GamePlay_Effect_Type_Clear_Idle.cpp
+  GamePlay_Effect_New_Game.cpp
+  CGame_State_GamePlay.cpp
+  CGame_GamePlay_Maxtrix_Draw.cpp
+  CGame_GamePlay_Block_Grid.cpp
+  CGame_State_Test.cpp
+  WaveCircle.cpp
+  TransformColor.cpp
+  SpriteList.cpp
+  SVector2.cpp
+  SMath.cpp
+  Pine_Date_Time.cpp
+  MenuSystem.cpp
+  Effect_Fish_Tank.cpp
+  CUser.cpp
+  CScrollBar.cpp
+  CMaxtrix4x4Util.cpp
+  CAsyncTasks.cpp
+  Acceleration.cpp
+  CGame_State.cpp
+  RenderObject.cpp
+  PineGame.cpp
+  GameRect.cpp
+  GameFlatform.cpp
+  GameContext.cpp
+  Device.cpp
+  CAnimObject.cpp
+Animation.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  iPhoneGame.vcxproj -> D:\Pine\Git\fade\src\_win\..\..\bin\_win\iPhoneGame.exe

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManager>
+  <FileInfo Version="1.1" />
+  <GFX>
+    <SupportVersions>
+      <Version Name="750_1334" Width="750" Height="1334" MainVersion="1" />
+    </SupportVersions>
+    <Packages>
+      <Package Name="font" />
+      <Package Name="background" />
+      <Package Name="hud" />
+      <Package Name="effect" />
+      <Package Name="object" />
+    </Packages>
+    <Items>
+      <Item Name="bg_ingame" />
+      <Item Name="bg_ingame_n_color" />
+      <Item Name="font_hud_text_ingame" />
+      <Item Name="font_logo" />
+      <Item Name="font_score_ingame" />
+      <Item Name="font_advert" />
+      <Item Name="font_highscore_ingame" />
+      <Item Name="font_score_number_ingame" />
+      <Item Name="hud_ingame" />
+      <Item Name="hud_ingame_title" />
+      <Item Name="hud_setting" />
+      <Item Name="hud_ingame_share" />
+      <Item Name="pine_advert" />
+      <Item Name="hud_gameover" />
+      <Item Name="hud_highscore" />
+      <Item Name="hud_rating" />
+      <Item Name="hud_defaulscreen" />
+      <Item Name="hud_tut" />
+      <Item Name="hud_tut_i4" />
+      <Item Name="object_01" />
+      <Item Name="object_01_n_color" />
+      <Item Name="object_02" />
+    </Items>
+    <VersionItems>
+      <VersionItem Version="750_1334">
+        <Item Item="font_hud_text_ingame" Path="font_hud_text_ingame_i6.bpine" Package="font" />
+        <Item Item="font_logo" Path="font_logo.bpine" Package="font" />
+        <Item Item="object_01" Path="object_01_i6.bpine" Package="object" />
+        <Item Item="font_score_ingame" Path="font_score_ingame_i6.bpine" Package="font" />
+        <Item Item="hud_ingame" Path="hud_ingame_i6.bpine" Package="hud" />
+        <Item Item="bg_ingame" Path="bg_ingame_i6.bpine" Package="background" />
+        <Item Item="hud_ingame_title" Path="hud_ingame_title_i6.bpine" Package="hud" />
+        <Item Item="bg_ingame_n_color" Path="bg_ingame_n_color_i6.bpine" Package="background" />
+        <Item Item="object_01_n_color" Path="object_01_n_color_i6.bpine" Package="object" />
+        <Item Item="hud_setting" Path="hud_setting_i6.bpine" Package="hud" />
+        <Item Item="pine_advert" Path="null.bpine" Package="hud" />
+        <Item Item="font_advert" Path="font.bpine" Package="font" />
+        <Item Item="hud_ingame_share" Path="hud_ingame_share_i6.bpine" Package="hud" />
+        <Item Item="hud_gameover" Path="hud_gameover_i6.bpine" Package="hud" />
+        <Item Item="hud_highscore" Path="hud_highscore_i6.bpine" Package="hud" />
+        <Item Item="hud_rating" Path="hud_rating_i6.bpine" Package="hud" />
+        <Item Item="font_highscore_ingame" Path="font_highscore_ingame_i6.bpine" Package="font" />
+        <Item Item="hud_defaulscreen" Path="hud_defaulscreen_i6.bpine" Package="hud" />
+        <Item Item="hud_tut" Path="hud_tut_i6.bpine" Package="hud" />
+        <Item Item="font_score_number_ingame" Path="font_score_number_ingame_i6.bpine" Package="font" />
+        <Item Item="hud_tut_i4" Path="hud_tut_i4.bpine" Package="hud" />
+        <Item Item="object_02" Path="object_02_i6.bpine" Package="object" />
+      </VersionItem>
+    </VersionItems>
+  </GFX>
+  <Sounds>
+    <Sound Name="sfx_score_01" Path="sfx_score_01.wav" />
+    <Sound Name="sfx_score_02" Path="sfx_score_02.wav" />
+    <Sound Name="sfx_score_03" Path="sfx_score_03.wav" />
+    <Sound Name="sfx_score_04" Path="sfx_score_04.wav" />
+    <Sound Name="sfx_score_05" Path="sfx_score_05.wav" />
+    <Sound Name="sfx_score_06" Path="sfx_score_06.wav" />
+    <Sound Name="sfx_button" Path="sfx_button.wav" />
+    <Sound Name="sfx_new_highscore" Path="sfx_new_highscore.wav" />
+    <Sound Name="sfx_share" Path="sfx_share.wav" />
+    <Sound Name="bgm_all" Path="bgm_all.mp3" />
+  </Sounds>
+  <ProjectSettings>
+    <ResourceManifestHeader><![CDATA[./../src/game/Define]]></ResourceManifestHeader>
+    <ResourceManifestCPP><![CDATA[./../src/game/GamePlay]]></ResourceManifestCPP>
+  </ProjectSettings>
+  <Targets>
+    <Target Name="Simulator" AddNoise="1" GroupSFX="1">
+      <ResourceDirectory><![CDATA[./../_tmpres]]></ResourceDirectory>
+      <OutputDirectory><![CDATA[./../bin/res]]></OutputDirectory>
+      <Versions>
+        <Version Name="750_1334" />
+      </Versions>
+    </Target>
+    <Target Name="IOS" AddNoise="1" GroupSFX="1">
+      <ResourceDirectory><![CDATA[./../_tmpres]]></ResourceDirectory>
+      <OutputDirectory><![CDATA[./../bin/Res_IOS]]></OutputDirectory>
+      <Versions>
+        <Version Name="750_1334" />
+      </Versions>
+    </Target>
+    <Target Name="Android" AddNoise="1" GroupSFX="1">
+      <ResourceDirectory><![CDATA[./../_tmpres]]></ResourceDirectory>
+      <OutputDirectory><![CDATA[./../bin/Res_Android]]></OutputDirectory>
+      <Versions>
+        <Version Name="750_1334" />
+      </Versions>
+    </Target>
+  </Targets>
+</ResourceManager>
