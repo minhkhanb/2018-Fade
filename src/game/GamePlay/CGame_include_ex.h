@@ -51,6 +51,8 @@
 
 #include "../GamePlay/MainGame/ColorBorn.h"
 
+#include "../GamePlay/GameObject/Topebox_PromoGame.h"
+
 
 //include lib
 #include "../Lib/PineAdBox.h"

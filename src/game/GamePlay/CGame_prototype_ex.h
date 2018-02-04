@@ -104,3 +104,4 @@ INT_TIME _time_first_show_unity_video_ads;
 BoardScoreItem		_gameBoardScoreItem;
 #endif
 #endif
+TopeBox_PromoGame _topebox_game;

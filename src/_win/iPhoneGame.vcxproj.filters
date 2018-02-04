@@ -315,6 +315,9 @@
     <ClCompile Include="..\game\GamePlay\GameObject\CAsyncTasks.cpp">
       <Filter>Source Files\GamePlay\Object</Filter>
     </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\Topebox_PromoGame.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\game\GamePlay\GameObject\MenuSystem.h">
@@ -606,6 +609,9 @@
       <Filter>Source Files\Lib\Math</Filter>
     </ClInclude>
     <ClInclude Include="..\game\GamePlay\GameObject\CAsyncTasks.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\Topebox_PromoGame.h">
       <Filter>Source Files\GamePlay\Object</Filter>
     </ClInclude>
   </ItemGroup>

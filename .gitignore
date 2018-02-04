@@ -1,0 +1,6 @@
+_tmpres/
+src/_android/.idea/
+src/_android/build/
+src/_win/.vs/
+src/_android/.gradle/
+src/_win/Debug/
